@@ -7,7 +7,14 @@ public abstract class  AbstractAnimal {
     private int eta;
     private String nome;
 
-    AbstractAnimal(String specie, String genere, int eta ,String nome){
+    public AbstractAnimal(){
+        this.specie = "specie";
+        this.genere ="genere";
+        this.eta = 0;
+        this.nome = "nome";
+    }
+
+    public AbstractAnimal(String specie, String genere, int eta ,String nome){
         this.specie = specie;
         this.genere =genere;
         this.eta =eta;

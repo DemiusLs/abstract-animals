@@ -9,8 +9,11 @@ public class Aquila  extends AbstractAnimal implements IVolante{
     private String colore = "Marrone";
     
 
-    
-    Aquila(String specie, String genere, int eta ,String nome ){
+    public Aquila(){
+        super();
+    }
+
+    public Aquila(String specie, String genere, int eta ,String nome ){
 
         super(specie, genere, eta, nome);            
     }
@@ -53,9 +56,9 @@ public class Aquila  extends AbstractAnimal implements IVolante{
     public void caccia(){
         System.out.println("L'aquila Caccia");
     }
-
+    @Override
     public void vola(){
-        System.out.println("Sto volando Jack");
+        System.out.println("Sto volando altissimo");
     }
 
 }

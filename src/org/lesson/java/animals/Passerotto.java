@@ -9,9 +9,11 @@ public class Passerotto extends AbstractAnimal implements IVolante{
     private String verso = "Cip cip";
     private String colore = "Marroncino";
     
-
+    public Passerotto(){
+        super();
+    }
     
-    Passerotto(String specie, String genere, int eta ,String nome ){
+    public Passerotto(String specie, String genere, int eta ,String nome ){
 
         super(specie, genere, eta, nome);            
     }

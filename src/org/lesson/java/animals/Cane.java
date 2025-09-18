@@ -6,8 +6,11 @@ public class Cane extends AbstractAnimal{
     private String verso = "Bau bau";
     private int nZampe = 4;
 
-    
-    Cane(String specie, String genere, int eta ,String nome ){
+    public Cane(){
+        super();
+    }
+
+    public Cane(String specie, String genere, int eta ,String nome ){
 
         super(specie, genere, eta, nome);            
     }

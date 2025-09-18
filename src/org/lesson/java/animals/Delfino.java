@@ -8,9 +8,11 @@ public class Delfino extends AbstractAnimal implements INuotante{
     private String verso = "CIIIIIII";
     
     
-
+    public Delfino(){
+        super();
+    }
     
-    Delfino(String specie, String genere, int eta ,String nome ){
+    public Delfino(String specie, String genere, int eta ,String nome ){
 
         super(specie, genere, eta, nome);            
     }
